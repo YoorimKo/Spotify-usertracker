@@ -152,37 +152,6 @@ class RecentTracksInfo(SpotifyInfoRetriever):
         else: 
             print("최근에 재생한 노래가 없습니다.")
 
-class SpotifyDataProcessor:
-
-    def get_recent_tracks_info_from_redis(self, key):
-        # Redis에서 데이터 가져오기
-        data_json = self.redis_client.get(key)
-
-        # JSON 파싱
-        if data_json:
-            return json.loads(data_json)
-        else:
-            return None
-
-    def plot_genres_distribution(self, tracks_info):
-        # 각 장르의 분포를 그리는 간단한 Matplotlib 차트 예시
-        if tracks_info:
-            genres_distribution = {}
-
-            for track in tracks_info:
-                genres = track.get('genres', [])
-                for genre in genres:
-                    genres_distribution[genre] = genres_distribution.get(genre, 0) + 1
-
-            # 차트 그리기
-            plt.bar(genres_distribution.keys(), genres_distribution.values())
-            plt.xlabel('Genres')
-            plt.ylabel('Count')
-            plt.title('Genres Distribution of Liked Tracks')
-            plt.xticks(rotation=45, ha='right')
-            plt.show()
-        else:
-            print("No recent tracks information available.")
             
 # # Spotify API 인증 설정
 # sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='',
