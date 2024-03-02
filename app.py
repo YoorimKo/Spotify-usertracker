@@ -3,6 +3,7 @@ from spotipy.oauth2 import SpotifyOAuth
 import json
 from config import *
 import redis
+import matplotlib.pyplot as plt
 
 class SpotifyInfoRetriever:
     """
@@ -13,6 +14,7 @@ class SpotifyInfoRetriever:
                                                             client_secret=SPOTIPY_CLIENT_SECRET,
                                                             redirect_uri=SPOTIPY_REDIRECT_URI,
                                                             scope=SPOTIPY_SCOPE))
+        self.redis_client = redis.StrictRedis(host='redis-17931.c309.us-east-2-1.ec2.cloud.redislabs.com', port=17931, decode_responses=True)
         """
         Initializes the SpotifyInfoRetriever.
 
@@ -62,7 +64,7 @@ class CurrentTrackInfo(SpotifyInfoRetriever):
 
             self.save_to_json(output_data, 'current_track_info.json')
 
-            print(f"현재 재생 중인 노래: {track_name} - {artist_name} ({album_name})")
+            print(f"Now playing: {track_name} - {artist_name} ({album_name})")
             print(f"현재 재생 중인 노래 정보를 current_track_info.json 파일로 저장했습니다.")
         else:
             print("Spotify에 연결되어 있지 않거나 현재 재생 중인 노래가 없습니다.")
@@ -101,8 +103,17 @@ class LikedTracksInfo(SpotifyInfoRetriever):
             self.save_to_json(liked_tracks_info, 'liked_tracks_info.json')
 
             print("좋아요한 노래 목록을 liked_tracks_info.json 파일로 저장했습니다.")
+
+            # Redis에 데이터 업데이트
+            self.update_redis_data(liked_tracks_info, 'liked_tracks_info_redis_key')
         else:
             print("좋아요한 노래가 없습니다.")
+
+    def update_redis_data(self, data, key):
+        # Redis에 데이터 업데이트
+        json_data = json.dumps(data)
+        self.redis_client.set(key, json_data)
+        print(f"데이터를 Redis에 성공적으로 업데이트했습니다. (Key: {key})")
 
 class RecentTracksInfo(SpotifyInfoRetriever):
     """
@@ -138,8 +149,40 @@ class RecentTracksInfo(SpotifyInfoRetriever):
             self.save_to_json(recent_tracks_info, 'recent_tracks_info.json')
             
             print("최근에 재생한 20곡의 정보를 recent_tracks_info.json 파일로 저장했습니다.")
-        else:
+        else: 
             print("최근에 재생한 노래가 없습니다.")
+
+class SpotifyDataProcessor:
+
+    def get_recent_tracks_info_from_redis(self, key):
+        # Redis에서 데이터 가져오기
+        data_json = self.redis_client.get(key)
+
+        # JSON 파싱
+        if data_json:
+            return json.loads(data_json)
+        else:
+            return None
+
+    def plot_genres_distribution(self, tracks_info):
+        # 각 장르의 분포를 그리는 간단한 Matplotlib 차트 예시
+        if tracks_info:
+            genres_distribution = {}
+
+            for track in tracks_info:
+                genres = track.get('genres', [])
+                for genre in genres:
+                    genres_distribution[genre] = genres_distribution.get(genre, 0) + 1
+
+            # 차트 그리기
+            plt.bar(genres_distribution.keys(), genres_distribution.values())
+            plt.xlabel('Genres')
+            plt.ylabel('Count')
+            plt.title('Genres Distribution of Liked Tracks')
+            plt.xticks(rotation=45, ha='right')
+            plt.show()
+        else:
+            print("No recent tracks information available.")
             
 # # Spotify API 인증 설정
 # sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='',

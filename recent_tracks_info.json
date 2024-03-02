@@ -1,74 +1,20 @@
 [
   {
-    "track_name": "_WORLD",
-    "artist_name": "SEVENTEEN",
-    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
+    "track_name": "Love Is Ugly (Feat. Hwa Sa)",
+    "artist_name": "Jay Park",
+    "album_name": "Yesterday",
     "genres": [
       "k-pop",
-      "k-pop boy group"
-    ]
-  },
-  {
-    "track_name": "_WORLD",
-    "artist_name": "SEVENTEEN",
-    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
-    "genres": [
-      "k-pop",
-      "k-pop boy group"
-    ]
-  },
-  {
-    "track_name": "_WORLD",
-    "artist_name": "SEVENTEEN",
-    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
-    "genres": [
-      "k-pop",
-      "k-pop boy group"
-    ]
-  },
-  {
-    "track_name": "What 2 Do",
-    "artist_name": "DEAN",
-    "album_name": "130 Mood : TRBL",
-    "genres": [
-      "k-pop",
+      "k-rap",
       "korean r&b"
     ]
   },
   {
-    "track_name": "What 2 Do",
-    "artist_name": "DEAN",
-    "album_name": "130 Mood : TRBL",
+    "track_name": "Square (2017)",
+    "artist_name": "Yerin Baek",
+    "album_name": "Every letter I sent you.",
     "genres": [
-      "k-pop",
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "Hype Boy",
-    "artist_name": "NewJeans",
-    "album_name": "NewJeans 1st EP 'New Jeans'",
-    "genres": [
-      "k-pop",
-      "k-pop girl group"
-    ]
-  },
-  {
-    "track_name": "Hype Boy",
-    "artist_name": "NewJeans",
-    "album_name": "NewJeans 1st EP 'New Jeans'",
-    "genres": [
-      "k-pop",
-      "k-pop girl group"
-    ]
-  },
-  {
-    "track_name": "하루살이",
-    "artist_name": "DEAN",
-    "album_name": "하루살이",
-    "genres": [
-      "k-pop",
-      "korean r&b"
+      "korean pop"
     ]
   },
   {
@@ -81,83 +27,6 @@
     ]
   },
   {
-    "track_name": "Text Me",
-    "artist_name": "DPR LIVE",
-    "album_name": "Her",
-    "genres": [
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "rain bird interlude",
-    "artist_name": "CODE KUNST",
-    "album_name": "rain bird",
-    "genres": [
-      "k-rap",
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "Lovegame",
-    "artist_name": "Yerin Baek",
-    "album_name": "tellusboutyourself",
-    "genres": [
-      "korean pop"
-    ]
-  },
-  {
-    "track_name": "어때",
-    "artist_name": "DEAN",
-    "album_name": "130 Mood : TRBL",
-    "genres": [
-      "k-pop",
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "Me You (feat. Baek Yerin)",
-    "artist_name": "San E",
-    "album_name": "The Boy Who Cried Wolf",
-    "genres": [
-      "k-pop",
-      "k-rap"
-    ]
-  },
-  {
-    "track_name": "Last",
-    "artist_name": "Dvwn",
-    "album_name": "Dawn Defibrillation, Vol.1",
-    "genres": [
-      "bedroom r&b"
-    ]
-  },
-  {
-    "track_name": "Walking In The Rain (feat. Younha)",
-    "artist_name": "Chancellor",
-    "album_name": "Chancellor",
-    "genres": [
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "You, Clouds, Rain",
-    "artist_name": "HEIZE",
-    "album_name": "/// (You, Clouds, Rain)",
-    "genres": [
-      "k-pop",
-      "korean pop",
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "His ocean",
-    "artist_name": "Yerin Baek",
-    "album_name": "Bye Bye My Blue",
-    "genres": [
-      "korean pop"
-    ]
-  },
-  {
     "track_name": "D (Half Moon)",
     "artist_name": "DEAN",
     "album_name": "130 Mood : TRBL",
@@ -167,12 +36,140 @@
     ]
   },
   {
-    "track_name": "woo ah",
-    "artist_name": "Crush",
-    "album_name": "Interlude",
+    "track_name": "Get Up",
+    "artist_name": "NewJeans",
+    "album_name": "NewJeans 2nd EP 'Get Up'",
+    "genres": [
+      "k-pop",
+      "k-pop girl group"
+    ]
+  },
+  {
+    "track_name": "Nerdy Love",
+    "artist_name": "pH-1",
+    "album_name": "Nerdy Love",
+    "genres": [
+      "k-rap",
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "Don't Know You",
+    "artist_name": "HEIZE",
+    "album_name": "/// (You, Clouds, Rain)",
+    "genres": [
+      "k-pop",
+      "korean pop",
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "No Blueberries",
+    "artist_name": "DPR IAN",
+    "album_name": "Moodswings in This Order",
+    "genres": [
+      "k-rap"
+    ]
+  },
+  {
+    "track_name": "Bittersweet (feat. LeeHi)",
+    "artist_name": "WONWOO",
+    "album_name": "Bittersweet (feat. LeeHi)",
+    "genres": []
+  },
+  {
+    "track_name": "What 2 Do",
+    "artist_name": "DEAN",
+    "album_name": "130 Mood : TRBL",
     "genres": [
       "k-pop",
       "korean r&b"
+    ]
+  },
+  {
+    "track_name": "Hongdae R&B",
+    "artist_name": "BIBI",
+    "album_name": "Hongdae R&B",
+    "genres": [
+      "k-pop",
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "Love Again",
+    "artist_name": "BAEKHYUN",
+    "album_name": "Delight - The 2nd Mini Album",
+    "genres": [
+      "k-pop"
+    ]
+  },
+  {
+    "track_name": "Boat",
+    "artist_name": "george",
+    "album_name": "Boat",
+    "genres": [
+      "korean city pop"
+    ]
+  },
+  {
+    "track_name": "INVITATION (Feat. Gaeko)",
+    "artist_name": "JUNNY",
+    "album_name": "INVITATION (Feat. Gaeko)",
+    "genres": [
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "Lean On Me",
+    "artist_name": "Yerin Baek",
+    "album_name": "A-TEEN2 Part.1",
+    "genres": [
+      "korean pop"
+    ]
+  },
+  {
+    "track_name": "I Love It",
+    "artist_name": "DEAN",
+    "album_name": "130 Mood : TRBL",
+    "genres": [
+      "k-pop",
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "_WORLD",
+    "artist_name": "SEVENTEEN",
+    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
+    "genres": [
+      "k-pop",
+      "k-pop boy group"
+    ]
+  },
+  {
+    "track_name": "_WORLD",
+    "artist_name": "SEVENTEEN",
+    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
+    "genres": [
+      "k-pop",
+      "k-pop boy group"
+    ]
+  },
+  {
+    "track_name": "_WORLD",
+    "artist_name": "SEVENTEEN",
+    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
+    "genres": [
+      "k-pop",
+      "k-pop boy group"
+    ]
+  },
+  {
+    "track_name": "_WORLD",
+    "artist_name": "SEVENTEEN",
+    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
+    "genres": [
+      "k-pop",
+      "k-pop boy group"
     ]
   }
 ]
