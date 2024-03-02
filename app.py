@@ -65,7 +65,7 @@ class CurrentTrackInfo(SpotifyInfoRetriever):
             self.save_to_json(output_data, 'current_track_info.json')
 
             print(f"Now playing: {track_name} - {artist_name} ({album_name})")
-            print(f"현재 재생 중인 노래 정보를 current_track_info.json 파일로 저장했습니다.")
+            print(f"current_track_info saved completed.")
         else:
             print("Spotify에 연결되어 있지 않거나 현재 재생 중인 노래가 없습니다.")
 
@@ -102,18 +102,10 @@ class LikedTracksInfo(SpotifyInfoRetriever):
 
             self.save_to_json(liked_tracks_info, 'liked_tracks_info.json')
 
-            print("좋아요한 노래 목록을 liked_tracks_info.json 파일로 저장했습니다.")
+            print("liked_tracks_info saved completed.")
 
-            # Redis에 데이터 업데이트
-            self.update_redis_data(liked_tracks_info, 'liked_tracks_info_redis_key')
         else:
             print("좋아요한 노래가 없습니다.")
-
-    def update_redis_data(self, data, key):
-        # Redis에 데이터 업데이트
-        json_data = json.dumps(data)
-        self.redis_client.set(key, json_data)
-        print(f"데이터를 Redis에 성공적으로 업데이트했습니다. (Key: {key})")
 
 class RecentTracksInfo(SpotifyInfoRetriever):
     """
@@ -148,7 +140,7 @@ class RecentTracksInfo(SpotifyInfoRetriever):
 
             self.save_to_json(recent_tracks_info, 'recent_tracks_info.json')
             
-            print("최근에 재생한 20곡의 정보를 recent_tracks_info.json 파일로 저장했습니다.")
+            print("recent_tracks_info saved completed.")
         else: 
             print("최근에 재생한 노래가 없습니다.")
 
