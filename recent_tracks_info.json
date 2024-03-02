@@ -1,71 +1,33 @@
 [
   {
-    "track_name": "AURA (feat. pH-1) (Prod. GXXD)",
-    "artist_name": "JUNNY",
-    "album_name": "AURA (feat. pH-1)",
-    "genres": [
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "For You",
-    "artist_name": "LeeHi",
-    "album_name": "For You",
-    "genres": [
-      "k-pop"
-    ]
-  },
-  {
-    "track_name": "instagram",
-    "artist_name": "DEAN",
-    "album_name": "instagram",
+    "track_name": "_WORLD",
+    "artist_name": "SEVENTEEN",
+    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
     "genres": [
       "k-pop",
-      "korean r&b"
+      "k-pop boy group"
     ]
   },
   {
-    "track_name": "Cry For Love",
-    "artist_name": "BAEKHYUN",
-    "album_name": "Bambi - The 3rd Mini Album",
+    "track_name": "_WORLD",
+    "artist_name": "SEVENTEEN",
+    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
     "genres": [
-      "k-pop"
+      "k-pop",
+      "k-pop boy group"
     ]
   },
   {
-    "track_name": "Right Now (Feat. Crush)",
-    "artist_name": "Coogie",
-    "album_name": "Right Now",
+    "track_name": "_WORLD",
+    "artist_name": "SEVENTEEN",
+    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
     "genres": [
-      "k-rap"
+      "k-pop",
+      "k-pop boy group"
     ]
   },
   {
-    "track_name": "Believe",
-    "artist_name": "Paul Blanco",
-    "album_name": "MINE",
-    "genres": [
-      "korean drill"
-    ]
-  },
-  {
-    "track_name": "Romance Symphony (Feat. CHANGMO, Jay Park)",
-    "artist_name": "BIG Naughty",
-    "album_name": "NANGMAN",
-    "genres": [
-      "k-pop ballad"
-    ]
-  },
-  {
-    "track_name": "Cheese & Wine",
-    "artist_name": "DPR LIVE",
-    "album_name": "Coming To You Live",
-    "genres": [
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "21",
+    "track_name": "What 2 Do",
     "artist_name": "DEAN",
     "album_name": "130 Mood : TRBL",
     "genres": [
@@ -74,93 +36,143 @@
     ]
   },
   {
-    "track_name": "KAZINO",
-    "artist_name": "BIBI",
-    "album_name": "KAZINO",
+    "track_name": "What 2 Do",
+    "artist_name": "DEAN",
+    "album_name": "130 Mood : TRBL",
     "genres": [
       "k-pop",
       "korean r&b"
     ]
   },
   {
-    "track_name": "Control Me",
-    "artist_name": "Colde",
-    "album_name": "Control Me",
-    "genres": [
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "HOLO",
-    "artist_name": "LeeHi",
-    "album_name": "HOLO",
-    "genres": [
-      "k-pop"
-    ]
-  },
-  {
-    "track_name": "Get Up",
+    "track_name": "Hype Boy",
     "artist_name": "NewJeans",
-    "album_name": "NewJeans 2nd EP 'Get Up'",
+    "album_name": "NewJeans 1st EP 'New Jeans'",
     "genres": [
       "k-pop",
       "k-pop girl group"
     ]
   },
   {
-    "track_name": "Hongdae R&B",
-    "artist_name": "BIBI",
-    "album_name": "Hongdae R&B",
-    "genres": [
-      "k-pop",
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "INVITATION (Feat. Gaeko)",
-    "artist_name": "JUNNY",
-    "album_name": "INVITATION (Feat. Gaeko)",
-    "genres": [
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "Intentions",
-    "artist_name": "LeeHi",
-    "album_name": "4 ONLY",
-    "genres": [
-      "k-pop"
-    ]
-  },
-  {
-    "track_name": "Intentions",
-    "artist_name": "LeeHi",
-    "album_name": "4 ONLY",
-    "genres": [
-      "k-pop"
-    ]
-  },
-  {
-    "track_name": "Bittersweet (feat. LeeHi)",
-    "artist_name": "WONWOO",
-    "album_name": "Bittersweet (feat. LeeHi)",
-    "genres": []
-  },
-  {
-    "track_name": "ETA",
+    "track_name": "Hype Boy",
     "artist_name": "NewJeans",
-    "album_name": "NewJeans 2nd EP 'Get Up'",
+    "album_name": "NewJeans 1st EP 'New Jeans'",
     "genres": [
       "k-pop",
       "k-pop girl group"
     ]
   },
   {
-    "track_name": "Standing Next to You",
-    "artist_name": "Jung Kook",
-    "album_name": "GOLDEN",
+    "track_name": "하루살이",
+    "artist_name": "DEAN",
+    "album_name": "하루살이",
     "genres": [
-      "k-pop"
+      "k-pop",
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "Sometimes",
+    "artist_name": "Crush",
+    "album_name": "Crush on You",
+    "genres": [
+      "k-pop",
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "Text Me",
+    "artist_name": "DPR LIVE",
+    "album_name": "Her",
+    "genres": [
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "rain bird interlude",
+    "artist_name": "CODE KUNST",
+    "album_name": "rain bird",
+    "genres": [
+      "k-rap",
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "Lovegame",
+    "artist_name": "Yerin Baek",
+    "album_name": "tellusboutyourself",
+    "genres": [
+      "korean pop"
+    ]
+  },
+  {
+    "track_name": "어때",
+    "artist_name": "DEAN",
+    "album_name": "130 Mood : TRBL",
+    "genres": [
+      "k-pop",
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "Me You (feat. Baek Yerin)",
+    "artist_name": "San E",
+    "album_name": "The Boy Who Cried Wolf",
+    "genres": [
+      "k-pop",
+      "k-rap"
+    ]
+  },
+  {
+    "track_name": "Last",
+    "artist_name": "Dvwn",
+    "album_name": "Dawn Defibrillation, Vol.1",
+    "genres": [
+      "bedroom r&b"
+    ]
+  },
+  {
+    "track_name": "Walking In The Rain (feat. Younha)",
+    "artist_name": "Chancellor",
+    "album_name": "Chancellor",
+    "genres": [
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "You, Clouds, Rain",
+    "artist_name": "HEIZE",
+    "album_name": "/// (You, Clouds, Rain)",
+    "genres": [
+      "k-pop",
+      "korean pop",
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "His ocean",
+    "artist_name": "Yerin Baek",
+    "album_name": "Bye Bye My Blue",
+    "genres": [
+      "korean pop"
+    ]
+  },
+  {
+    "track_name": "D (Half Moon)",
+    "artist_name": "DEAN",
+    "album_name": "130 Mood : TRBL",
+    "genres": [
+      "k-pop",
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "woo ah",
+    "artist_name": "Crush",
+    "album_name": "Interlude",
+    "genres": [
+      "k-pop",
+      "korean r&b"
     ]
   }
 ]

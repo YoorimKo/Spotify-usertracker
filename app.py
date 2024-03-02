@@ -2,6 +2,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import json
 from config import *
+import redis
 
 class SpotifyInfoRetriever:
     """
@@ -60,6 +61,7 @@ class CurrentTrackInfo(SpotifyInfoRetriever):
             }
 
             self.save_to_json(output_data, 'current_track_info.json')
+
             print(f"현재 재생 중인 노래: {track_name} - {artist_name} ({album_name})")
             print(f"현재 재생 중인 노래 정보를 current_track_info.json 파일로 저장했습니다.")
         else:
@@ -97,6 +99,7 @@ class LikedTracksInfo(SpotifyInfoRetriever):
                 })
 
             self.save_to_json(liked_tracks_info, 'liked_tracks_info.json')
+
             print("좋아요한 노래 목록을 liked_tracks_info.json 파일로 저장했습니다.")
         else:
             print("좋아요한 노래가 없습니다.")
@@ -133,6 +136,7 @@ class RecentTracksInfo(SpotifyInfoRetriever):
                 })
 
             self.save_to_json(recent_tracks_info, 'recent_tracks_info.json')
+            
             print("최근에 재생한 20곡의 정보를 recent_tracks_info.json 파일로 저장했습니다.")
         else:
             print("최근에 재생한 노래가 없습니다.")
