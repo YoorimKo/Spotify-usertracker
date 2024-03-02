@@ -1,5 +1,13 @@
 [
   {
+    "track_name": "HOLO",
+    "artist_name": "LeeHi",
+    "album_name": "HOLO",
+    "genres": [
+      "k-pop"
+    ]
+  },
+  {
     "track_name": "Love Is Ugly (Feat. Hwa Sa)",
     "artist_name": "Jay Park",
     "album_name": "Yesterday",
@@ -134,15 +142,6 @@
     "genres": [
       "k-pop",
       "korean r&b"
-    ]
-  },
-  {
-    "track_name": "_WORLD",
-    "artist_name": "SEVENTEEN",
-    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
-    "genres": [
-      "k-pop",
-      "k-pop boy group"
     ]
   },
   {
