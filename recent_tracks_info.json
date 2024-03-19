@@ -1,5 +1,40 @@
 [
   {
+    "track_name": "You, Clouds, Rain",
+    "artist_name": "HEIZE",
+    "album_name": "/// (You, Clouds, Rain)",
+    "genres": [
+      "k-pop",
+      "korean pop",
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "nostalgia",
+    "artist_name": "JUNNY",
+    "album_name": "nostalgia",
+    "genres": [
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "KAZINO",
+    "artist_name": "BIBI",
+    "album_name": "KAZINO",
+    "genres": [
+      "k-pop",
+      "korean r&b"
+    ]
+  },
+  {
+    "track_name": "HOLO",
+    "artist_name": "LeeHi",
+    "album_name": "HOLO",
+    "genres": [
+      "k-pop"
+    ]
+  },
+  {
     "track_name": "HOLO",
     "artist_name": "LeeHi",
     "album_name": "HOLO",
@@ -133,42 +168,6 @@
     "album_name": "A-TEEN2 Part.1",
     "genres": [
       "korean pop"
-    ]
-  },
-  {
-    "track_name": "I Love It",
-    "artist_name": "DEAN",
-    "album_name": "130 Mood : TRBL",
-    "genres": [
-      "k-pop",
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "_WORLD",
-    "artist_name": "SEVENTEEN",
-    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
-    "genres": [
-      "k-pop",
-      "k-pop boy group"
-    ]
-  },
-  {
-    "track_name": "_WORLD",
-    "artist_name": "SEVENTEEN",
-    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
-    "genres": [
-      "k-pop",
-      "k-pop boy group"
-    ]
-  },
-  {
-    "track_name": "_WORLD",
-    "artist_name": "SEVENTEEN",
-    "album_name": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
-    "genres": [
-      "k-pop",
-      "k-pop boy group"
     ]
   }
 ]
