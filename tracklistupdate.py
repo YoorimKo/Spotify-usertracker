@@ -1,3 +1,5 @@
+#Run this first
+
 from app import *
 from config import *
 
