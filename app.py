@@ -65,7 +65,7 @@ class CurrentTrackInfo(SpotifyInfoRetriever):
             print(f"Now playing: {track_name} - {artist_name} ({album_name})")
             print(f"current_track_info saved completed.")
         else:
-            print("Spotify에 연결되어 있지 않거나 현재 재생 중인 노래가 없습니다.")
+            print("Not connected to Spotify or no currently playing track.")
 
 class LikedTracksInfo(SpotifyInfoRetriever):
     """
@@ -100,10 +100,10 @@ class LikedTracksInfo(SpotifyInfoRetriever):
 
             self.save_to_json(liked_tracks_info, 'liked_tracks_info.json')
 
-            print("liked_tracks_info saved completed.")
+            print("Liked tracks info saved completed.")
 
         else:
-            print("좋아요한 노래가 없습니다.")
+            print("No liked tracks.")
 
 class RecentTracksInfo(SpotifyInfoRetriever):
     """
@@ -138,6 +138,6 @@ class RecentTracksInfo(SpotifyInfoRetriever):
 
             self.save_to_json(recent_tracks_info, 'recent_tracks_info.json')
             
-            print("recent_tracks_info saved completed.")
+            print("Recent tracks info saved completed.")
         else: 
-            print("최근에 재생한 노래가 없습니다.")
+            print("No recently played tracks.")

@@ -1,5 +1,65 @@
 [
   {
+    "track_name": "Don't Know What To Do - Live",
+    "artist_name": "BLACKPINK",
+    "album_name": "BLACKPINK 2021 'THE SHOW' LIVE",
+    "genres": [
+      "k-pop",
+      "k-pop girl group",
+      "pop"
+    ]
+  },
+  {
+    "track_name": "How You Like That - Live",
+    "artist_name": "BLACKPINK",
+    "album_name": "BLACKPINK 2021 'THE SHOW' LIVE",
+    "genres": [
+      "k-pop",
+      "k-pop girl group",
+      "pop"
+    ]
+  },
+  {
+    "track_name": "Crazy Over You - Live",
+    "artist_name": "BLACKPINK",
+    "album_name": "BLACKPINK 2021 'THE SHOW' LIVE",
+    "genres": [
+      "k-pop",
+      "k-pop girl group",
+      "pop"
+    ]
+  },
+  {
+    "track_name": "Kill This Love - Live",
+    "artist_name": "BLACKPINK",
+    "album_name": "BLACKPINK 2021 'THE SHOW' LIVE",
+    "genres": [
+      "k-pop",
+      "k-pop girl group",
+      "pop"
+    ]
+  },
+  {
+    "track_name": "Ready For Love",
+    "artist_name": "BLACKPINK",
+    "album_name": "BORN PINK",
+    "genres": [
+      "k-pop",
+      "k-pop girl group",
+      "pop"
+    ]
+  },
+  {
+    "track_name": "Tally",
+    "artist_name": "BLACKPINK",
+    "album_name": "BORN PINK",
+    "genres": [
+      "k-pop",
+      "k-pop girl group",
+      "pop"
+    ]
+  },
+  {
     "track_name": "Hard to Love",
     "artist_name": "BLACKPINK",
     "album_name": "BORN PINK",
@@ -133,58 +193,6 @@
     "artist_name": "JUNNY",
     "album_name": "nostalgia",
     "genres": [
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "KAZINO",
-    "artist_name": "BIBI",
-    "album_name": "KAZINO",
-    "genres": [
-      "k-pop",
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "HOLO",
-    "artist_name": "LeeHi",
-    "album_name": "HOLO",
-    "genres": [
-      "k-pop"
-    ]
-  },
-  {
-    "track_name": "HOLO",
-    "artist_name": "LeeHi",
-    "album_name": "HOLO",
-    "genres": [
-      "k-pop"
-    ]
-  },
-  {
-    "track_name": "Love Is Ugly (Feat. Hwa Sa)",
-    "artist_name": "Jay Park",
-    "album_name": "Yesterday",
-    "genres": [
-      "k-pop",
-      "k-rap",
-      "korean r&b"
-    ]
-  },
-  {
-    "track_name": "Square (2017)",
-    "artist_name": "Yerin Baek",
-    "album_name": "Every letter I sent you.",
-    "genres": [
-      "korean pop"
-    ]
-  },
-  {
-    "track_name": "Sometimes",
-    "artist_name": "Crush",
-    "album_name": "Crush on You",
-    "genres": [
-      "k-pop",
       "korean r&b"
     ]
   }

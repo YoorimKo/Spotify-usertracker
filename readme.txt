@@ -1,6 +1,6 @@
 Assignment3
 
-Create a Python Application, that 
+Create a Python Application, that
 
     Reads JSON from API
     Inserts into RedisJSON
@@ -14,9 +14,15 @@ The Python Application should be
 - Should be aligned properly
 
 #app idea
-spotify api 이용. 
-현재 재생중인 노래제목 - 가수(앨범이름) 출력  /json 형식으로 저장
-이것을 이용하여 최근에 들은 20곡에 대한 정보(제목, 가수, 앨범, 장르) /json 형식으로 저장
-좋아요 누른 최대 50곡 대한 정보(제목, 가수, 앨범, 장르) /json 형식으로 저장
+Utilize Spotify API.
+Output the current track title - artist(album name) /store in json format
+Based on the currently playing track information, store information about the last 20 tracks listened to (title, artist, album, genre) /store in json format
+Information about the top 50 liked tracks (title, artist, album, genre) /store in json format
+
 
 #Description
+- tracklistupdate.py: Executable file that saves updated information to json
+- redisjson.py : Executable file that uploads json files to redis
+- visualization.py : File that analyzes liked_tracks_info and recent_tracks_info to display a bar graph of preferred genres
+- userprefer.py: File that outputs information about the user's preferred genres
+
