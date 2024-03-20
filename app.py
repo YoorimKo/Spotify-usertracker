@@ -104,3 +104,40 @@ class LikedTracksInfo(SpotifyInfoRetriever):
 
         else:
             print("좋아요한 노래가 없습니다.")
+
+class RecentTracksInfo(SpotifyInfoRetriever):
+    """
+    A class for retrieving information about recently played tracks.
+    """
+    def get_recent_tracks_info(self, limit=20):
+        """
+        Retrieves information about recently played tracks and saves it to a JSON file.
+
+        Parameters:
+        - limit (int): Number of recently played tracks to retrieve.
+        """
+        recent_tracks_response = self.sp.current_user_recently_played(limit=limit)
+        if 'items' in recent_tracks_response:
+            recent_tracks_info = []
+
+            for item in recent_tracks_response['items']:
+                track_name = item['track']['name']
+                artist_name = item['track']['artists'][0]['name']
+                album_name = item['track']['album']['name']
+
+                artist_id = item['track']['artists'][0]['id']
+                artist_info = self.sp.artist(artist_id)
+                genres = artist_info['genres']
+
+                recent_tracks_info.append({
+                    'track_name': track_name,
+                    'artist_name': artist_name,
+                    'album_name': album_name,
+                    'genres': genres
+                })
+
+            self.save_to_json(recent_tracks_info, 'recent_tracks_info.json')
+            
+            print("recent_tracks_info saved completed.")
+        else: 
+            print("최근에 재생한 노래가 없습니다.")

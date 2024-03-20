@@ -33,3 +33,14 @@ r.set("liked_tracks_info", json.dumps(liked_tracks_info))
 # 전체 데이터 출력
 print("Liked Tracks Information:")
 print(json.dumps(liked_tracks_info, indent=2))
+
+# liked_tracks_info.json 파일 데이터 읽기 (UTF-8 인코딩으로)
+with open("recent_tracks_info.json", "r", encoding="utf-8") as file:
+    recent_tracks_info = json.load(file)
+
+# 전체 데이터를 Redis에 문자열로 저장
+r.set("recent_tracks_info", json.dumps(recent_tracks_info))
+
+# 전체 데이터 출력
+print("Recent Tracks Information:")
+print(json.dumps(recent_tracks_info, indent=2))

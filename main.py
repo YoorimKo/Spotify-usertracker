@@ -12,3 +12,6 @@ if __name__ == "__main__":
 
     liked_tracks_info_obj = LikedTracksInfo(client_id, client_secret, redirect_uri, scope)
     liked_tracks_info_obj.get_liked_tracks_info()
+
+    recent_tracks_info_obj = RecentTracksInfo(client_id, client_secret, redirect_uri, scope)
+    recent_tracks_info_obj.get_recent_tracks_info()
