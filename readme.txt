@@ -26,3 +26,4 @@ Information about the top 50 liked tracks (title, artist, album, genre) /store i
 - visualization.py : File that analyzes liked_tracks_info and recent_tracks_info to display a bar graph of preferred genres
 - userprefer.py: File that outputs information about the user's preferred genres
 
+Please run the tracklistupdate.py file first to update all json files and then run other executable files as well.
